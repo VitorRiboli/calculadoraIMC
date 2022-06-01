@@ -9,15 +9,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(60, 59, 61);
+    background-color: rgb(101, 68, 134);
 }
 
 .container {
-    background-color: rgba(39, 41, 41, 0.685);
+    background-color: rgba(59, 43, 63, 0.87);
     padding: 30px 30px;
     margin: 80px 0;
     border-radius: 30px;
     width: 50%;
+    box-shadow: 3px 5px 14px 14px rgba(124, 3, 148, 0.856);
 }
 
 .titulo {
