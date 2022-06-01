@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 59, 61);
+}
+
+.container {
+    background-color: rgba(39, 41, 41, 0.685);
+    padding: 30px 30px;
+    margin: 80px 0;
+    border-radius: 30px;
+    width: 50%;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: 700;
+    color: azure;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subtitulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: azure;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.referencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: azure;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.referencia p {
+    margin-bottom: 10px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dados h1{
+    font-size: 26px;
+    color: azure;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.dados label {
+    font-size: 18px;
+    color: azure;
+    margin-bottom: 10px;
+}
+
+.dados input {
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.resultado {
+    font-size: 24px;
+    color: azure;
+    margin: 10px;
+    text-align: center;
+}
+
+
