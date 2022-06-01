@@ -3,7 +3,7 @@ function calcular(){
     let altura = parseInt(document.getElementById("altura").value);
     let alturaFinal = altura / 100;
 
-    let imc = peso / (alturaFinal * alturaFinal);
+    let imc = (peso / (alturaFinal * alturaFinal)).toFixed(2);
 
     let resultado = document.getElementById("resultado");
 
